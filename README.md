@@ -19,7 +19,7 @@ Since WebAssebmly is available in node (v8.x+), I experimented to use WebAssembl
 
 #### Example : node-red-contrib-nativesquare (very simple)
 
-square.wasm was pre-built wasm (in c).
+square.wasm was pre-built wasm (originally in C).
 
 ```
 Welcome to Node-RED
