@@ -37,7 +37,7 @@ Welcome to Node-RED
 
 
 
-## Useful Links
+## FYI
 
 - [WebAssembly Example](https://medium.com/@matzewagner/creating-a-webassembly-work-environment-c584b15fdb73)
 - [Standalone WebAssembly Example](https://gist.github.com/kripken/59c67556dc03bb6d57052fedef1e61ab)
