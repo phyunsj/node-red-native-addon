@@ -6,7 +6,7 @@
 > WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable target for compilation of high-level languages like C/C++/Rust, enabling deployment on the web for client and server applications.    _from [WebAssembly.org](https://webassembly.org/)_
 
 
-> WebAssembly has huge implications for the web platform — it provides a way to run code written in multiple languages on the web at near native speed, with client apps running on the web that previously couldn’t have done so. _from [Mozila.org] (https://developer.mozilla.org/en-US/docs/WebAssembly)_
+> WebAssembly has huge implications for the web platform — it provides a way to run code written in multiple languages on the web at near native speed, with client apps running on the web that previously couldn’t have done so. _from [Mozila.org](https://developer.mozilla.org/en-US/docs/WebAssembly)_
 
 ## WebAssembly in node
 
@@ -17,9 +17,9 @@
 
 Since WebAssebmly is available in node (v8.x+), I experimented to use WebAssembly in Node-RED environment
 
-####  node-red-contrib-native-square (very simple example)
+#### Example : node-red-contrib-nativesquare (very simple)
 
-suare.wasm was pre-built wasm (originally c).
+square.wasm was pre-built wasm (in c).
 
 ```
 Welcome to Node-RED
@@ -36,8 +36,10 @@ Welcome to Node-RED
 [native-square-flow.json](https://github.com/phyunsj/node-red-native-addon/blob/master/node-red-native-addon-example.json)
 
 
+
 ## Useful Links
 
 - [WebAssembly Example](https://medium.com/@matzewagner/creating-a-webassembly-work-environment-c584b15fdb73)
 - [Standalone WebAssembly Example](https://gist.github.com/kripken/59c67556dc03bb6d57052fedef1e61ab)
 - [Cheerp Tutorial: Mixed mode C++ to WebAssembly and JavaScript](https://github.com/leaningtech/cheerp-meta/wiki/Cheerp-Tutorial:-Mixed-mode-C---to-WebAssembly-and-JavaScript)
+- [Writing WebAssembly By Hand](https://blog.scottlogic.com/2018/04/26/webassembly-by-hand.html)
