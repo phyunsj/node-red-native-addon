@@ -15,7 +15,7 @@
 
 ## WebAssembly + Node-RED (node v8+)
 
-Since WebAssebmly is available in node (v8.x+), I experimented in Node-RED environment
+Since WebAssembly is available in node (v8.x+), I experimented in Node-RED environment
 
 #### Example : node-red-contrib-nativesquare :  calling `_square()` from `square.wasm`.
 
