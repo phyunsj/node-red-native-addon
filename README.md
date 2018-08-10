@@ -17,7 +17,7 @@
 
 Since WebAssebmly is available in node (v8.x+), I experimented in Node-RED environment
 
-#### Example : node-red-contrib-nativesquare (very simple)
+#### Example : node-red-contrib-nativesquare :  calling `_square()` from `square.wasm`.
 
 square.wasm was pre-built wasm (originally in C).
 
