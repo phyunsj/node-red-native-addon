@@ -45,3 +45,4 @@ Welcome to Node-RED
 - [Standalone WebAssembly Example](https://gist.github.com/kripken/59c67556dc03bb6d57052fedef1e61ab)
 - [Cheerp Tutorial: Mixed mode C++ to WebAssembly and JavaScript](https://github.com/leaningtech/cheerp-meta/wiki/Cheerp-Tutorial:-Mixed-mode-C---to-WebAssembly-and-JavaScript)
 - [Writing WebAssembly By Hand](https://blog.scottlogic.com/2018/04/26/webassembly-by-hand.html)
+- [Emscripten](http://kripken.github.io/emscripten-site/index.html)
