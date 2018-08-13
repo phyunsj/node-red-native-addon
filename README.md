@@ -39,6 +39,7 @@ Welcome to Node-RED
 
 ## FYI
 
+- [moz://a WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly)
 - [WebAssembly Example](https://medium.com/@matzewagner/creating-a-webassembly-work-environment-c584b15fdb73)
 - [Standalone WebAssembly Example](https://gist.github.com/kripken/59c67556dc03bb6d57052fedef1e61ab)
 - [Cheerp Tutorial: Mixed mode C++ to WebAssembly and JavaScript](https://github.com/leaningtech/cheerp-meta/wiki/Cheerp-Tutorial:-Mixed-mode-C---to-WebAssembly-and-JavaScript)
