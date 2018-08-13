@@ -44,7 +44,7 @@ Compilation with emcc
 
 $ emcc main.c -s WASM=1 -o app.html
 
-Additional Toolkit [WABT](https://github.com/WebAssembly/wabt)
+Additional Toolkit [WABT](https://github.com/WebAssembly/wabt):WebAssembly Binary Toolkit
 
 #### Option 2. [WebAssembly for Node](https://github.com/dcodeIO/webassembly)
 
