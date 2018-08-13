@@ -27,3 +27,30 @@ More about Array
 - [Writing WebAssembly By Hand](https://blog.scottlogic.com/2018/04/26/webassembly-by-hand.html)
 - [Emscripten](http://kripken.github.io/emscripten-site/index.html)
 - [Interacting with Code](https://kripken.github.io/emscripten-site/docs/porting/connecting_cpp_and_javascript/Interacting-with-code.html#call-compiled-c-c-code-directly-from-javascript)
+
+## WASM Compilation
+
+#### Option 1. Emscripten SDK
+
+Installation (Linux or OS X)
+
+$ git clone https://github.com/juj/emsdk.git
+$ cd emsdk
+$ ./emsdk install latest
+$ ./emsdk activate latest
+$ source ./emsdk_env.sh
+
+Compilation with emcc
+
+$ emcc main.c -s WASM=1 -o app.html
+
+Additional Toolkit [WABT](https://github.com/WebAssembly/wabt)
+
+#### Option 2. [WebAssembly for Node](https://github.com/dcodeIO/webassembly)
+
+> `wa-compile` -o main.wasm main.c
+
+> `wa-link` utility links multiple wasm files to one.
+
+
+
