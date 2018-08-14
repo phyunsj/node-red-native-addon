@@ -35,11 +35,15 @@ More about Array
 
 Installation (Linux or OS X)
 
-$ git clone https://github.com/juj/emsdk.git
-$ cd emsdk
-$ ./emsdk install latest
-$ ./emsdk activate latest
-$ source ./emsdk_env.sh
+>$ git clone https://github.com/juj/emsdk.git
+ 
+>$ cd emsdk
+
+>$ ./emsdk install latest
+
+>$ ./emsdk activate latest
+
+>$ source ./emsdk_env.sh
 
 Compilation with emcc
 
