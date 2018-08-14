@@ -33,7 +33,7 @@ More about Array
 
 #### Option 1. Emscripten SDK
 
-Installation (Linux or OS X)
+- Installation (Linux or OS X)
 
 >$ git clone https://github.com/juj/emsdk.git
  
@@ -45,11 +45,11 @@ Installation (Linux or OS X)
 
 >$ source ./emsdk_env.sh
 
-Compilation with emcc
+- Compilation with emcc
 
 $ emcc main.c -s WASM=1 -o app.html
 
-Additional Toolkit [WABT](https://github.com/WebAssembly/wabt):WebAssembly Binary Toolkit
+- Additional Toolkit [WABT](https://github.com/WebAssembly/wabt):WebAssembly Binary Toolkit
 
 #### Option 2. [WebAssembly for Node](https://github.com/dcodeIO/webassembly)
 
