@@ -14,7 +14,7 @@ You can interact with a WebAssembly instance using:
 - Memory.buffer, which is an ArrayBuffer that can be indexed using (among others) Uint8Array.
 
 More about Array
-- [JavaScript typed arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays0
+- [JavaScript typed arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays)
 - [Hello World in WebAssembly](https://medium.com/@mbebenita/hello-world-in-webassembly-83951757775)
 - [Passing and returning array parameters](https://becominghuman.ai/passing-and-returning-webassembly-array-parameters-a0f572c65d97)
 
