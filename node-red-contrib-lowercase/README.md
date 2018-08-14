@@ -13,7 +13,8 @@ You can interact with a WebAssembly instance using:
 - imports where WebAssembly calls into JavaScript, with as many value types as you want (note: the count must be known at Module compilation time, this isn't an array and isn't variadic).
 - Memory.buffer, which is an ArrayBuffer that can be indexed using (among others) Uint8Array.
 
-More about Array 
+More about Array
+- [JavaScript typed arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays0
 - [Hello World in WebAssembly](https://medium.com/@mbebenita/hello-world-in-webassembly-83951757775)
 - [Passing and returning array parameters](https://becominghuman.ai/passing-and-returning-webassembly-array-parameters-a0f572c65d97)
 
