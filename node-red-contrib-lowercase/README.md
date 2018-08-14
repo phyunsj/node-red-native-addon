@@ -47,7 +47,7 @@ More about Array
 
 - Compilation with emcc
 
-$ emcc main.c -s WASM=1 -o app.html
+> $ emcc main.c -s WASM=1 -o app.html
 
 - Additional Toolkit [WABT](https://github.com/WebAssembly/wabt):WebAssembly Binary Toolkit
 
