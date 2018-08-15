@@ -38,3 +38,5 @@ Welcome to Node-RED
 #### Example `node-red-contrib-nativesquare` :   calling `_lowercase(char *)` from `lowercase.wasm`.
 
 - [Passing a string to C code compiled with emscripten.](https://github.com/phyunsj/node-red-native-addon/tree/master/node-red-contrib-lowercase)
+
+- [native-lowercase-flow.json](https://github.com/phyunsj/node-red-native-addon/blob/master/node-red-contrib-lowercase.json)
