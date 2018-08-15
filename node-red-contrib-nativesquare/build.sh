@@ -1,1 +1,0 @@
-emcc lowercase.c WASM=1 -Os -s SIDE_MODULE=1 -Os -o lowercase.wasm
