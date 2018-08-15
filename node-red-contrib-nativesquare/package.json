@@ -1,10 +1,10 @@
 {
 
-  "name": "node-red-contrib-lowercase",
+  "name": "node-red-contrib-nativesquare",
   "version": "0.0.1",
   "node-red": {
     "nodes": {
-      "lowercase": "lowercase.js"
+      "lowercase": "nativesquare.js"
     }
   }
 
