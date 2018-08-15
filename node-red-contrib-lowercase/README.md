@@ -73,4 +73,8 @@ More about Array
 > `wa-link` utility links multiple wasm files to one.
 
 
+## WASM Examples ( as a reference )
+
+- https://github.com/Hanks10100/wasm-examples
+
 
