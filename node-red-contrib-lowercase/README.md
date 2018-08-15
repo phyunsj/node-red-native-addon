@@ -1,11 +1,26 @@
 
-## Compiling lowercase.wasm
+## Compiling lowercase.c -> lowercase.wasm
 
 > emcc lowercase.c -s WASM=1  -O3 -o lowercase.js  
 
 ## Passing String (or Array)
 
 WebAssembly doesn't natively support a string type, it rather supports i32 / i64 / f32 / f64 value types as well as i8 / i16 for storage.
+
+```
+            var ptr = new Uint8Array(mem.buffer, 0, msg.payload.length );
+             
+            // String to UTF8
+            var utf8 = unescape(encodeURIComponent(msg.payload));
+            for (var i = 0; i < utf8.length; i++) {
+                ptr[i] = utf8.charCodeAt(i);
+            }
+            
+            instance.exports._lowercase(ptr); // Calling lowercase(char *ptr)
+            
+            // UTF8 to String
+            msg.payload = utf8ToString(ptr);
+ ```
 
 You can interact with a WebAssembly instance using:
 
