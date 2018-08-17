@@ -33,7 +33,7 @@ More about Array
 - [Hello World in WebAssembly](https://medium.com/@mbebenita/hello-world-in-webassembly-83951757775)
 - [Passing and returning array parameters](https://becominghuman.ai/passing-and-returning-webassembly-array-parameters-a0f572c65d97)
 
-## FYI
+## Related Posts
 
 - [MDN WebAssembly documentation](https://developer.mozilla.org/en-US/docs/WebAssembly)
 - [Code examples that accompany MDN WebAssembly documentation](https://github.com/mdn/webassembly-examples)
@@ -43,6 +43,7 @@ More about Array
 - [Writing WebAssembly By Hand](https://blog.scottlogic.com/2018/04/26/webassembly-by-hand.html)
 - [Emscripten](http://kripken.github.io/emscripten-site/index.html)
 - [Interacting with Code](https://kripken.github.io/emscripten-site/docs/porting/connecting_cpp_and_javascript/Interacting-with-code.html#call-compiled-c-c-code-directly-from-javascript)
+- [Emscripting a C library to Wasm](https://developers.google.com/web/updates/2018/03/emscripting-a-c-library)
 
 ## WASM Compilation
 
@@ -76,5 +77,8 @@ More about Array
 ## WASM Examples ( as a reference )
 
 - https://github.com/Hanks10100/wasm-examples
+- [JPEG codec in WASM demo](https://github.com/GoogleChromeLabs/wasm-jpeg-ijg)
+- [HumbleNet](https://github.com/HumbleNet/HumbleNet)
+
 
 
