@@ -17,7 +17,7 @@
 
 Since WebAssembly is available in node (v8.x+), I experimented in Node-RED environment
 
-#### Example `node-red-contrib-nativesquare` :   calling `_square()` from `square.wasm`.
+#### Example 1 `node-red-contrib-nativesquare` :   calling `_square()` from `square.wasm`.
 
 square.wasm was pre-built wasm (originally in C).
 
@@ -35,7 +35,7 @@ Welcome to Node-RED
 
 - [native-square-flow.json](https://github.com/phyunsj/node-red-native-addon/blob/master/node-red-native-addon-example.json)
 
-#### Example `node-red-contrib-nativesquare` :   calling `_lowercase(char *)` from `lowercase.wasm`.
+#### Example 2 `node-red-contrib-nativesquare` :   calling `_lowercase(char *)` from `lowercase.wasm`.
 
 - [Passing a string to C code compiled with emscripten.](https://github.com/phyunsj/node-red-native-addon/tree/master/node-red-contrib-lowercase)
 
